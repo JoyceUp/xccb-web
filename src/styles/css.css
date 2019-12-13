@@ -1,0 +1,186 @@
+@import "datetimepicker.css";
+
+#main {
+    min-height: calc(100vh - 222px);
+}
+
+.form-group {
+    margin-bottom: .75rem;
+}
+
+.parsley-errors-list > li:before {
+    top: 1px;
+}
+
+.bg-accpunt-pages {
+    /*position: fixed;*/
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .page-title-box {
+        padding: 22px 2% !important;
+    }
+
+    .followMe > ul > li > div span {
+        width: 33% !important;
+    }
+
+    .followMe > ul > li .fir_box .nr,
+    .fol-top > ul > li .fir_box .nr {
+        width: 20% !important;
+    }
+
+    .fol-top > ul > li > div span {
+        width: 34% !important;
+    }
+
+    .sq-time .nr {
+        width: 17% !important
+    }
+
+    .je-w > div > span {
+        width: 85% !important
+    }
+}
+
+.pagination .description {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem .5rem 0;
+    line-height: 1.25;
+    background-color: #fff;
+    color: #6c757d;
+}
+
+.date-picker[readonly] {
+    background-color: #ffffff;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0 !important;
+    background: #d6d8dd !important;
+}
+
+.fileupload-preview.thumbnail img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fileupload-preview.thumbnail.avatar img {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[id^=parsley-container-] {
+    text-align: left;
+}
+
+[id^=parsley-container-] > .parsley-errors-list > li:before {
+    position: static !important;
+}
+
+[id^=parsley-container-] > .parsley-errors-list > li {
+    padding-left: 0;
+}
+
+.divider {
+    width: 1px;
+    margin: 0 1rem;
+    background: #e8eaec
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.custom-control-label {
+    padding-top: 2px;
+}
+
+.custom-control-label::before {
+    background-color: #fff;
+    border: #adb5bd solid 1px;
+}
+
+#topnav .navigation-menu > li > a i {
+    margin-top: 3px;
+}
+
+.tabs-bordered li a.active {
+    border-color: #3ec396 !important;
+}
+
+@keyframes spinner-border {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-border {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+}
+
+.spinner-border-sm {
+    width: 1em;
+    height: 1em;
+    border-width: .2em;
+}
+
+.btn .spinner-border {
+    margin: .375rem 0;
+}
+
+#navigation .logo {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 0 !important;
+}
+
+#navigation .dropdown a {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+}
+
+#topnav .navigation-menu > li > a {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+table.fancytree-ext-table .btn-sm {
+    font-size: 10pt;
+}
+
+table.fancytree-ext-table tbody tr.fancytree-active,
+table.fancytree-ext-table tbody tr.fancytree-focused {
+    background-color: inherit !important;
+}
+
+.fancytree-custom-icon.mdi {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1;
+    margin-top: 2px;
+}
+
+.fancytree-expander {
+    margin-top: 2px !important;
+}

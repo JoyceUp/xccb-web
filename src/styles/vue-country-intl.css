@@ -1,0 +1,55 @@
+.vue-country-intl .country-intl-input-wrap {
+    position: relative;
+    border: 1px solid #dadada;
+    border-radius: 4px
+}
+
+.vue-country-intl .country-intl-input {
+    border-radius: 4px;
+    height: auto;
+    padding: .375rem .75rem;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.vue-country-disabled .country-intl-input {
+    border-color: #ededed
+}
+
+.vue-country-intl .country-intl-label {
+    padding: calc(.375rem - 1px) .75rem;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    height: auto;
+    top: 0;
+}
+
+.vue-country-intl .dropdown-flag {
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.vue-country-list-wrap {
+    border-radius: 4px;
+}
+
+.vue-country-list {
+    padding-left: 0;
+}
+
+.vue-country-item {
+    padding: .375rem .75rem;
+    list-style: none;
+}
+
+.vue-country-item.selected {
+    background-color: #3ec396;
+}
+
+.vue-country-item:not(.selected):hover {
+    background-color: #3ec396
+}
